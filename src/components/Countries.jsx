@@ -33,7 +33,7 @@ const Countries = () => {
               name="continentRadio"
               checked={continent === selectedRadio}
               onChange={(e) => setSelectedRadio(e.target.id)}
-            />
+            />{" "}
             <label htmlFor={continent}>{continent}</label>
           </li>
         ))}
